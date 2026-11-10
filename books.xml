@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ex="https://example.org/semantic-books/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_darkness">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Я бачу, вас цікавить пітьма</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_pavliuk"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_old_lion"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_detective"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_horror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_hp2">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Гаррі Поттер і таємна кімната</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_rowling"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_bloomsbury"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_fantasy"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_potter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_city1">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Місто Кісток</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_clare"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_mcelderry"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_fantasy"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_instruments"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/author_king">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Author"/>
+    <schema:name xml:lang="uk">Стівен Кінг</schema:name>
+    <ex:fromCountry rdf:resource="https://example.org/semantic-books/country_usa"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q39829"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/publisher_mcelderry">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Publisher"/>
+    <schema:name xml:lang="uk">Маргарет К. Макелдеррі Букс</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/series_potter">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Series"/>
+    <schema:name xml:lang="uk">Гаррі Поттер</schema:name>
+    <ex:createdBy rdf:resource="https://example.org/semantic-books/author_rowling"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_city2">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Місто Попелу</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_clare"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_mcelderry"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_fantasy"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_instruments"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_carrie">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Керрі</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1974</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_king"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_doubleday"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_horror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/genre_horror">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Genre"/>
+    <schema:name xml:lang="uk">Жахи / містика</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_hp3">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Гаррі Поттер і в'язень Азкабану</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_rowling"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_bloomsbury"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_fantasy"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_potter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_ash">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Білий попіл</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_pavliuk"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_old_lion"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_detective"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_horror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_city3">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Місто Скла</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_clare"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_mcelderry"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_fantasy"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_instruments"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_pet">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Кладовище домашніх тварин</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1983</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_king"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_doubleday"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_horror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_dance">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Танець недоумка</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_pavliuk"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_old_lion"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_detective"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_orient">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Вбивство у «Східному експресі»</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1934</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_agatha"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_collins"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_detective"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_poirot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_shining">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Сяйво</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1977</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_king"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_doubleday"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_horror"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_nile">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Смерть на Нілі</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_agatha"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_collins"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_detective"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_poirot"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/country_britain">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Country"/>
+    <schema:name xml:lang="uk">Велика Британія</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/series_poirot">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Series"/>
+    <schema:name xml:lang="uk">Еркюль Пуаро</schema:name>
+    <ex:createdBy rdf:resource="https://example.org/semantic-books/author_agatha"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/publisher_doubleday">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Publisher"/>
+    <schema:name xml:lang="uk">Даблдей</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/book_hp1">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Book"/>
+    <schema:name xml:lang="uk">Гаррі Поттер і філософський камінь</schema:name>
+    <ex:year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</ex:year>
+    <ex:writtenBy rdf:resource="https://example.org/semantic-books/author_rowling"/>
+    <ex:publishedBy rdf:resource="https://example.org/semantic-books/publisher_bloomsbury"/>
+    <ex:hasGenre rdf:resource="https://example.org/semantic-books/genre_fantasy"/>
+    <ex:inSeries rdf:resource="https://example.org/semantic-books/series_potter"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/author_clare">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Author"/>
+    <schema:name xml:lang="uk">Кассандра Клер</schema:name>
+    <ex:fromCountry rdf:resource="https://example.org/semantic-books/country_usa"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/publisher_bloomsbury">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Publisher"/>
+    <schema:name xml:lang="uk">Блумсбері</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/country_ukraine">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Country"/>
+    <schema:name xml:lang="uk">Україна</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/genre_fantasy">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Genre"/>
+    <schema:name xml:lang="uk">Фентезі</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/publisher_collins">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Publisher"/>
+    <schema:name xml:lang="uk">Коллінз Крайм Клаб</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/publisher_old_lion">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Publisher"/>
+    <schema:name xml:lang="uk">Видавництво Старого Лева</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/author_agatha">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Author"/>
+    <schema:name xml:lang="uk">Агата Крісті</schema:name>
+    <ex:fromCountry rdf:resource="https://example.org/semantic-books/country_britain"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q35064"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/author_rowling">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Author"/>
+    <schema:name xml:lang="uk">Джоан Роулінґ</schema:name>
+    <ex:fromCountry rdf:resource="https://example.org/semantic-books/country_britain"/>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q34660"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/country_usa">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Country"/>
+    <schema:name xml:lang="uk">США</schema:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/series_instruments">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Series"/>
+    <schema:name xml:lang="uk">Знаряддя Смерті</schema:name>
+    <ex:createdBy rdf:resource="https://example.org/semantic-books/author_clare"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/author_pavliuk">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Author"/>
+    <schema:name xml:lang="uk">Ілларіон Павлюк</schema:name>
+    <ex:fromCountry rdf:resource="https://example.org/semantic-books/country_ukraine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/semantic-books/genre_detective">
+    <rdf:type rdf:resource="https://example.org/semantic-books/Genre"/>
+    <schema:name xml:lang="uk">Детективи / трилери</schema:name>
+  </rdf:Description>
+</rdf:RDF>

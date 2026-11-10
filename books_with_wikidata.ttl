@@ -1,0 +1,194 @@
+@prefix ex: <https://example.org/semantic-books/> .
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:book_ash a ex:Book ;
+    ex:hasGenre ex:genre_detective,
+        ex:genre_horror ;
+    ex:publishedBy ex:publisher_old_lion ;
+    ex:writtenBy ex:author_pavliuk ;
+    ex:year 2018 ;
+    schema:name "Білий попіл"@uk .
+
+ex:book_carrie a ex:Book ;
+    ex:hasGenre ex:genre_horror ;
+    ex:publishedBy ex:publisher_doubleday ;
+    ex:writtenBy ex:author_king ;
+    ex:year 1974 ;
+    schema:name "Керрі"@uk .
+
+ex:book_city1 a ex:Book ;
+    ex:hasGenre ex:genre_fantasy ;
+    ex:inSeries ex:series_instruments ;
+    ex:publishedBy ex:publisher_mcelderry ;
+    ex:writtenBy ex:author_clare ;
+    ex:year 2007 ;
+    schema:name "Місто Кісток"@uk .
+
+ex:book_city2 a ex:Book ;
+    ex:hasGenre ex:genre_fantasy ;
+    ex:inSeries ex:series_instruments ;
+    ex:publishedBy ex:publisher_mcelderry ;
+    ex:writtenBy ex:author_clare ;
+    ex:year 2008 ;
+    schema:name "Місто Попелу"@uk .
+
+ex:book_city3 a ex:Book ;
+    ex:hasGenre ex:genre_fantasy ;
+    ex:inSeries ex:series_instruments ;
+    ex:publishedBy ex:publisher_mcelderry ;
+    ex:writtenBy ex:author_clare ;
+    ex:year 2009 ;
+    schema:name "Місто Скла"@uk .
+
+ex:book_dance a ex:Book ;
+    ex:hasGenre ex:genre_detective ;
+    ex:publishedBy ex:publisher_old_lion ;
+    ex:writtenBy ex:author_pavliuk ;
+    ex:year 2019 ;
+    schema:name "Танець недоумка"@uk .
+
+ex:book_darkness a ex:Book ;
+    ex:hasGenre ex:genre_detective,
+        ex:genre_horror ;
+    ex:note "Містичний трилер"@uk ;
+    ex:publishedBy ex:publisher_old_lion ;
+    ex:writtenBy ex:author_pavliuk ;
+    ex:year 2020 ;
+    schema:name "Я бачу, вас цікавить пітьма"@uk .
+
+ex:book_hp1 a ex:Book ;
+    ex:hasGenre ex:genre_fantasy ;
+    ex:inSeries ex:series_potter ;
+    ex:publishedBy ex:publisher_bloomsbury ;
+    ex:writtenBy ex:author_rowling ;
+    ex:year 1997 ;
+    schema:name "Гаррі Поттер і філософський камінь"@uk .
+
+ex:book_hp2 a ex:Book ;
+    ex:hasGenre ex:genre_fantasy ;
+    ex:inSeries ex:series_potter ;
+    ex:publishedBy ex:publisher_bloomsbury ;
+    ex:writtenBy ex:author_rowling ;
+    ex:year 1998 ;
+    schema:name "Гаррі Поттер і таємна кімната"@uk .
+
+ex:book_hp3 a ex:Book ;
+    ex:hasGenre ex:genre_fantasy ;
+    ex:inSeries ex:series_potter ;
+    ex:publishedBy ex:publisher_bloomsbury ;
+    ex:writtenBy ex:author_rowling ;
+    ex:year 1999 ;
+    schema:name "Гаррі Поттер і в'язень Азкабану"@uk .
+
+ex:book_nile a ex:Book ;
+    ex:hasGenre ex:genre_detective ;
+    ex:inSeries ex:series_poirot ;
+    ex:publishedBy ex:publisher_collins ;
+    ex:writtenBy ex:author_agatha ;
+    ex:year 1937 ;
+    schema:name "Смерть на Нілі"@uk .
+
+ex:book_orient a ex:Book ;
+    ex:hasGenre ex:genre_detective ;
+    ex:inSeries ex:series_poirot ;
+    ex:publishedBy ex:publisher_collins ;
+    ex:writtenBy ex:author_agatha ;
+    ex:year 1934 ;
+    schema:name "Вбивство у «Східному експресі»"@uk .
+
+ex:book_pet a ex:Book ;
+    ex:hasGenre ex:genre_horror ;
+    ex:publishedBy ex:publisher_doubleday ;
+    ex:writtenBy ex:author_king ;
+    ex:year 1983 ;
+    schema:name "Кладовище домашніх тварин"@uk .
+
+ex:book_shining a ex:Book ;
+    ex:hasGenre ex:genre_horror ;
+    ex:publishedBy ex:publisher_doubleday ;
+    ex:writtenBy ex:author_king ;
+    ex:year 1977 ;
+    schema:name "Сяйво"@uk .
+
+wd:Q34660 rdfs:label "Джоан Роулінг" ;
+    ns1:P569 "1965-07-31"^^xsd:date .
+
+wd:Q35064 rdfs:label "Агата Крісті" ;
+    ns1:P569 "1890-09-15"^^xsd:date .
+
+wd:Q39829 rdfs:label "Стівен Кінг" ;
+    ns1:P569 "1947-09-21"^^xsd:date .
+
+ex:country_ukraine a ex:Country ;
+    schema:name "Україна"@uk .
+
+ex:country_britain a ex:Country ;
+    schema:name "Велика Британія"@uk .
+
+ex:country_usa a ex:Country ;
+    schema:name "США"@uk .
+
+ex:publisher_collins a ex:Publisher ;
+    schema:name "Коллінз Крайм Клаб"@uk .
+
+ex:series_poirot a ex:Series ;
+    ex:createdBy ex:author_agatha ;
+    schema:name "Еркюль Пуаро"@uk .
+
+ex:author_agatha a ex:Author ;
+    owl:sameAs wd:Q35064 ;
+    ex:fromCountry ex:country_britain ;
+    schema:name "Агата Крісті"@uk .
+
+ex:author_king a ex:Author ;
+    owl:sameAs wd:Q39829 ;
+    ex:fromCountry ex:country_usa ;
+    schema:name "Стівен Кінг"@uk .
+
+ex:author_pavliuk a ex:Author ;
+    ex:fromCountry ex:country_ukraine ;
+    schema:name "Ілларіон Павлюк"@uk .
+
+ex:publisher_bloomsbury a ex:Publisher ;
+    schema:name "Блумсбері"@uk .
+
+ex:publisher_doubleday a ex:Publisher ;
+    schema:name "Даблдей"@uk .
+
+ex:publisher_mcelderry a ex:Publisher ;
+    schema:name "Маргарет К. Макелдеррі Букс"@uk .
+
+ex:publisher_old_lion a ex:Publisher ;
+    schema:name "Видавництво Старого Лева"@uk .
+
+ex:series_instruments a ex:Series ;
+    ex:createdBy ex:author_clare ;
+    schema:name "Знаряддя Смерті"@uk .
+
+ex:series_potter a ex:Series ;
+    ex:createdBy ex:author_rowling ;
+    schema:name "Гаррі Поттер"@uk .
+
+ex:author_clare a ex:Author ;
+    ex:fromCountry ex:country_usa ;
+    schema:name "Кассандра Клер"@uk .
+
+ex:author_rowling a ex:Author ;
+    owl:sameAs wd:Q34660 ;
+    ex:fromCountry ex:country_britain ;
+    schema:name "Джоан Роулінґ"@uk .
+
+ex:genre_detective a ex:Genre ;
+    schema:name "Детективи / трилери"@uk .
+
+ex:genre_horror a ex:Genre ;
+    schema:name "Жахи / містика"@uk .
+
+ex:genre_fantasy a ex:Genre ;
+    schema:name "Фентезі"@uk .
+

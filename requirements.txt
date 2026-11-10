@@ -1,0 +1,4 @@
+rdflib>=7.0
+networkx>=3.0
+plotly>=5.0
+requests>=2.0
